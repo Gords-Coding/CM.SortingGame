@@ -116,6 +116,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"/Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"/Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"/Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -435,8 +438,11 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.AdaptivePerformance.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.AdaptivePerformance.Profiler.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.AdaptivePerformance.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.AdaptivePerformance.Samsung.Android.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.AdaptivePerformance.Samsung.Android.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.AdaptivePerformance.Simulator.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.AdaptivePerformance.Simulator.Extension.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.AdaptivePerformance.Simulator.VRR.Extension.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.AdaptivePerformance.UI.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Burst.ref.dll"
